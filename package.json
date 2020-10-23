@@ -1,8 +1,8 @@
 {
-  "name": "cropit",
+  "name": "cropit-jquery",
   "main": "dist/jquery.cropit.js",
   "description": "Customizable crop and zoom.",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "author": {
     "name": "Scott Cheng",
     "email": "me@scottcheng.com",
