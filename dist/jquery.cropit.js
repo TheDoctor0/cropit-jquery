@@ -1,4 +1,4 @@
-/*! cropit - v0.5.2 <https://github.com/TheDoctor0/cropit-jquery> */
+/*! cropit - v0.5.2 <https://github.com/scottcheng/cropit> */
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(typeof exports === 'object' && typeof module === 'object')
 		module.exports = factory(require("jquery"));
@@ -172,9 +172,9 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	var _jquery2 = _interopRequireDefault(_jquery);
 
-	var _Zoomer = __webpack_require__(3);
+	var _zoomer = __webpack_require__(3);
 
-	var _Zoomer2 = _interopRequireDefault(_Zoomer);
+	var _zoomer2 = _interopRequireDefault(_zoomer);
 
 	var _constants = __webpack_require__(4);
 
@@ -268,7 +268,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	      this.moveContinue = false;
 
-	      this.zoomer = new _Zoomer2['default']();
+	      this.zoomer = new _zoomer2['default']();
 
 	      this.bindListeners();
 
